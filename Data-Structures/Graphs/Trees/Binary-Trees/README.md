@@ -20,9 +20,11 @@ Siblings - Nodes with the same parent are called Siblings.
 
 Path / Traversing - Path is a number of successive edges from source node to destination node.
 
-Height of Node - Height of a node represents the number of edges on the longest path between that node and a leaf.
+Height of Node - Height of a node represents the number of edges on the longest downward path between that node and a leaf.
 
 Levels of node - Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on
+
+Depth of Node - the length of its path to its root
 
 Degree of Node - Degree of a node represents the number of children of a node.
 
